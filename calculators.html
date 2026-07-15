@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculators - C2Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="calculators.html">Calculators</a>
+</nav>
+    <h1>Calculators</h1>
+
+    <div class="container">
+        <div class="card">
+            <h2>Gate Weight Calculator</h2>
+            <p>Calculate gate weight based on dimensions.</p>
+        </div>
+
+        <div class="card">
+    <h2>Stair Calculator</h2>
+
+    <input type="number" id="length" placeholder="Length (meters)">
+    <br><br>
+
+    <input type="number" id="spacing" placeholder="Spacing (inches)">
+    <br><br>
+
+    <button onclick="calculateSteps()">Calculate</button>
+
+    <p id="result"></p>
+</div>
+
+        <div class="card">
+            <h2>Material Estimator</h2>
+            <p>Estimate steel and fabrication costs.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
